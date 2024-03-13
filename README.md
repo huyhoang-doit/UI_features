@@ -16,10 +16,10 @@ These are the products I made during the process of learning and practicing fron
 
 ## :globe_with_meridians: Link demo
 
-:point_right:[001_BlackPink_page](https://huyhoang-doit.github.io/blackpink_page/)
-:point_right:[002_Electronics_web](https://huyhoang-doit.github.io/electronics_web/)
-:point_right:[003_MusicPlayer](https://huyhoang-doit.github.io/Music_player/)
-:point_right:[004_TodoList](https://huyhoang-doit.github.io/TodoList_using_JavaScript/)
-:point_right:[005_Toast_message](https://huyhoang-doit.github.io/Toast_message/)
-:point_right:[006_Validation_form](https://huyhoang-doit.github.io/Validation_form_js/)
-:point_right:[007_Tab_UI](https://huyhoang-doit.github.io/Tabs_UI/)
+:point_right:[001_BlackPink_page](https://huyhoang-doit.github.io/blackpink_page/)<br>
+:point_right:[002_Electronics_web](https://huyhoang-doit.github.io/electronics_web/)<br>
+:point_right:[003_MusicPlayer](https://huyhoang-doit.github.io/Music_player/)<br>
+:point_right:[004_TodoList](https://huyhoang-doit.github.io/TodoList_using_JavaScript/)<br>
+:point_right:[005_Toast_message](https://huyhoang-doit.github.io/Toast_message/)<br>
+:point_right:[006_Validation_form](https://huyhoang-doit.github.io/Validation_form_js/)<br>
+:point_right:[007_Tab_UI](https://huyhoang-doit.github.io/Tabs_UI/)<br>
