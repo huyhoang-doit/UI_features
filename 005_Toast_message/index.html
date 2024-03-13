@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Toast Message</title>
+</head>
+<body>
+  <div id="toast"></div>
+
+<div>
+  <div onclick="showSuccessToast();" class="btn btn--success">Check Success</div>
+  <div onclick="showInforToast();" class="btn btn--info">Check Info</div>
+  <div onclick="showWarningToast();" class="btn btn--warning">Check Warning</div>
+  <div onclick="showErrorToast();" class="btn btn--error">Check Error</div>
+</div>
+<script src="javaScript.js"></script>
+
+<script>
+  function showSuccessToast() {
+    toast({
+      title: "Success!",
+      message: "This function has been checked",
+      type: "success",
+      duration: 5000
+    });
+  }
+
+  function showInforToast() {
+    toast({
+      title: "Information!",
+      message: "This function has been checked",
+      type: "info",
+      duration: 5000
+    });
+  }
+
+  function showWarningToast() {
+    toast({
+      title: "Warning!",
+      message: "This function has been checked",
+      type: "warning",
+      duration: 5000
+    });
+  }
+
+  function showErrorToast() {
+    toast({
+      title: "Error!",
+      message: "This function has been checked",
+      type: "error",
+      duration: 5000
+    });
+  }
+</script>
+</body>
+</html>
