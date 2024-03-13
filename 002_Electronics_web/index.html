@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+    <title>HUY HOANG STORE</title>
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                <!-- Navbar part 1 -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Enter the store on the HH-Store app
+
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <div>
+                                    <img src="./assets/img/qrcode.png" alt="QR code" class="header__qr-img">
+                                </div>
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Google.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Apple-App-Store.png" alt="App store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class ="header__navbar-item--no-pointer">Connect</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-square-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                <!-- Navbar part 2 -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Notification
+                            </a>
+                            <!-- Header Notification -->
+                            <div class="header__notify">
+                                <div class="header__notify-header">
+                                    <h3>New notification</h3>
+                                </div>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--new">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp/sp1" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">MSI FORCE GC30 V2 WIRELESS GAME GROUND</span>
+                                                <span class="header__notify-description">The V2 version has improved the analog part for perfect smooth movement</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--new">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp/sp2" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">WARRIOR WEC506 Ergonomic Chair (Black)</span>
+                                                <span class="header__notify-description">This promises to be a very hot ergonomic chair model in the retail segment around 4 million VND.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/sp/sp3" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">AKKO 3108 V2 ONE PIECE MECHANICAL KEYBOARD – LUFFY (AKKO SWITCH )</span>
+                                                <span class="header__notify-description">Helping consumers to choose the right switch for the needs of working and playing games.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">All</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-info"></i>
+                                Help
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Sign up</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Sign in</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/user.png" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Huy Hoang - doit</span>
+                            <!-- User menu -->
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Your profile</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Address</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">History </a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-out">
+                                    <a href="">
+                                        Log out 
+                                    <i class="header__navbar-user-icon fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- End Navbar -->
+                </nav>
+
+                <!-- Header with search--> 
+                <div class="header-with-search">
+                    <a href="/" class="header__logo-link">
+                        <div class="header__logo">
+                            <img src="./assets/img/hhoang2.png" alt="" class="header__logo-img">
+                        </div>
+                    </a>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Search in Store">
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h4 class="header__search-history-heading">Search history</h4>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Wireless mouse</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Akko keyboard</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Computer monitor 24 inch 240hz</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">In store</span>
+                            <i class=" header__search-select-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>In store</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Order</span>
+                                    <!-- <i class="fa-solid fa-check"></i> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-wrap-notice">3</span>
+                            <!-- No card : header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/emptycart.webp" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list--no-cart-msg">Empty cart</span>
+                                <h4 class="header__cart-heading">Selected products</h4>
+                                <ul class="header__cart-list-item">
+                                <!-- Cart items -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/sp/sp4" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">LAPTOP ASUS VIVOBOOK</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">16.990.000đ</span>
+                                                    <span class="header__cart-item-multiple">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">S14 S431FL-EB145T-SILVER</span>
+                                                <span class="header__cart-item-remove">Delete</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/sp/sp5" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">LOGITECH G502 WIRELESS GAMING MOUSE</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000đ</span>
+                                                    <span class="header__cart-item-multiple">x</span> 
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">LIGHTSPEED (USB/RGB/BLACK)</span>
+                                                <span class="header__cart-item-remove">Delete</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/sp/sp2" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">WARRIOR WEC506 . ERGONOMIC CHAIR</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">4.100.000đ</span>
+                                                    <span class="header__cart-item-multiple">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">BLACK</span>
+                                                <span class="header__cart-item-remove">Delete</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="header__cart-view-cart btn btn--primary">View cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Container body content -->
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                    CATEGORY
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">New computer</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Old computer</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Laptop</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Small computer parts</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Printer</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Promotion</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sorted by</span>
+                            <button class="home-filter__btn btn">Popular</button>
+                            <button class="home-filter__btn btn btn--primary">Lastest</button>
+                            <button class="home-filter__btn btn">Bestseller</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">
+                                    Price
+                                </span>
+                                <i class=" select-input__icon fa-solid fa-chevron-down"></i>
+
+                                <!-- List option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Low to High</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">High to Low</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>
+                                    /14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-button home-filter__page-button--disable">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="#" class="home-filter__page-button">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/12312saad_193c6b9e84924c44aa02a5c453925802_grande.webp);"></div>
+                                        <h4 class="home-product-item__name">G606 7.1 . Emulator GAMING HEADPHONE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/chuot_choi_game_khong_day_logitech_g502_lightspeed_1_b84e5d7a7074459d8f27c1996f5f57f8_grande.webp);"></div>
+                                        <h4 class="home-product-item__name">LOGITECH G502 LIGHTSPEED WIRELESS GAME MOUSE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/5_a9b15cf26c6149e58d7d12f45ffdd112_grande.webp);"></div>
+                                        <h4 class="home-product-item__name">DAREU H101X WIRELESS PINK GAME GROUND</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/ed31a194a04a446fb5a741df62634db2_0bdae5d67d834005951eec4b1753827b_grande.webp);"></div>
+                                        <h4 class="home-product-item__name">SPEAKER TG168 BLUETOOTH LED FLASING</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/4_ff9c74e1c0d2471aa3d1d3a87bf065a5_1024x1024.webp);"></div>
+                                        <h4 class="home-product-item__name">AKKO 3108 V2 ONE PIECE MECHANICAL KEYBOARD – LUFFY</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2020/09/img17.jpg);"></div>
+                                        <h4 class="home-product-item__name">LAPTOP ACER GAMING NITRO 5 AN515-55-70AX NH.Q7NSV.001</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/img3.jpg);"></div>
+                                        <h4 class="home-product-item__name">PC GAMING MSI FORGE I5 GENERATION 12</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2020/09/41BJUKYb3uL.jpg);"></div>
+                                        <h4 class="home-product-item__name">LAPTOP GAMING ACER ASPIRE 7 A715 41G R8KQ</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2022/11/ghe-warrior-wec506-black-01_57549ebd67d544a3acdaddd3596cddc3_1024x1024.webp);"></div>
+                                        <h4 class="home-product-item__name">WARRIOR WEC506 Ergonomic Chair (Black)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- Product item -->
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style = "background-image: url(http://maytinh6.giaodienwebmau.com/wp-content/uploads/2020/09/large_may-in-hp-1010-cu.jpg);"></div>
+                                        <h4 class="home-product-item__name">HP 1010 PRINTER 99% ORIGINAL JAPANESE BUILDING</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">900.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">80 sold</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Origin</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favorite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yeu thick</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">CUSTOMER CARE</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Help Center</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">HH-Store Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Shopping guide</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">INTRODUCE</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Introduce</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Recruitment</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Rules</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">SUPPORTING POLICIES</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">General Policy & Regulations</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Terms & form of payment</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Warranty Policy</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Shipping & Delivery</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">FOLLOW OUR</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-square-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item-icon fa-brands fa-linkedin"></i>
+                                    Linkedid
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">ENTER THE STORE THROUGH THE APP</h3>
+                        <div class="footer__connect">
+                            <div class="footer__connect-img">
+                                <img src="./assets/img/qrcode.png" alt="" class="footer__connect-img-qr">
+                            </div>
+                            <div class="footer__connect-dowload">
+                                <a href="" class="footer__connect-dowload__link">
+                                    <img src="./assets/img/Google.png" alt="" class="footer__connect-dowload-img footer__connect-dowload-gg">
+                                </a>
+                                <a href="" class="footer__connect-dowload__link">
+                                    <img src="./assets/img/Apple-App-Store.png" alt="" class="footer__connect-dowload-img footer__connect-dowload-apple">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid">
+                    <p class="footer__copyright-text">2023 - Copyright belongs to HH-Store</p>
+                </div> 
+            </div>
+        </footer>
+    </div>
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body"> -->
+                <!-- Sign in form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Sign In</h3>
+                            <span class="auth-form__swicth-btn">Sign Up</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Confirm password">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                By registering, you confirm with HH-Store the terms of
+                                <a href="" class="auth-form__text-link">Service</a> &
+                                <a href="" class="auth-form__text-link">Privacy policy.</a>
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back">RETURN</button>
+                            <button class="btn btn--primary">SIGN IN</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--fb btn btn-size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__socials--label">Connect with Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--gg btn btn-size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google-plus-g"></i>
+                            <span class="auth-form__socials--label">Connect with Google</span>
+
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- Sign up form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Sign Up</h3>
+                            <span class="auth-form__swicth-btn">Sign In</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Forgot password</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link auth-form__help-need">Need help?</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn auth-form__controls-back">RETURN</button>
+                            <button class="btn btn--primary">SIGN UP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--fb btn btn-size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__socials--label">Sign up with Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--gg btn btn-size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google-plus-g"></i>
+                            <span class="auth-form__socials--label">Sign up with Google</span>
+
+                        </a>
+                    </div>
+                </div> -->
+        <!-- </div> -->
+    <!-- </div> -->
+</body>
+</html>
