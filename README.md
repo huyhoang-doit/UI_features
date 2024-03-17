@@ -23,3 +23,5 @@ These are the products I made during the process of learning and practicing fron
 :point_right:[005_Toast_message](https://huyhoang-doit.github.io/Toast_message/)<br>
 :point_right:[006_Validation_form](https://huyhoang-doit.github.io/Validation_form_js/)<br>
 :point_right:[007_Tab_UI](https://huyhoang-doit.github.io/Tabs_UI/)<br>
+:point_right:[008_Product_card](https://huyhoang-doit.github.io/Product_card/)<br>
+:point_right:[009_Profile_card](https://huyhoang-doit.github.io/Profile_card/)<br>
