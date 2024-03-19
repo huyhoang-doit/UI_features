@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap');
+
+:root{
+    --purple-color:  #AF7AC5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background:#dadada;
+    font-family: "Poppins";
+    
+}
+.container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.header {
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-style: italic;
+    color: cadetblue;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.25s;
+}
+
+.image {
+    width: 22%;
+    height: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.image:hover img {
+    transform: scale(1.2);
+}
+
+.gallery {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgb(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.25s;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+
+.close {
+    position: fixed;
+    top:15px;
+    right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.control {
+    font-size: 35px;
+    color: rgba(255,255,255, 80%);
+    position: absolute;
+}
+
+.control.prev {
+    left: 15px;
+    cursor: pointer;
+}
+
+.control.next {
+    right: 15px;
+    cursor: pointer;
+}
+
+.gallery__inner {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.hide{
+    display: none;
+}
