@@ -25,3 +25,6 @@ These are the products I made during the process of learning and practicing fron
 :point_right:[007_Tab_UI](https://huyhoang-doit.github.io/Tabs_UI/)<br>
 :point_right:[008_Product_card](https://huyhoang-doit.github.io/Product_card/)<br>
 :point_right:[009_Profile_card](https://huyhoang-doit.github.io/Profile_card/)<br>
+:point_right:[010_Simple_search_box](https://huyhoang-doit.github.io/Simple_search_box/)<br>
+:point_right:[011_Simple_modal](https://huyhoang-doit.github.io/Modal_show/)<br>
+:point_right:[012_Image_gallery](https://huyhoang-doit.github.io/Image_gallery/)<br>
