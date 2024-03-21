@@ -28,3 +28,6 @@ These are the products I made during the process of learning and practicing fron
 :point_right:[010_Simple_search_box](https://huyhoang-doit.github.io/Simple_search_box/)<br>
 :point_right:[011_Simple_modal](https://huyhoang-doit.github.io/Modal_show/)<br>
 :point_right:[012_Image_gallery](https://huyhoang-doit.github.io/Image_gallery/)<br>
+:point_right:[013_Detect_pressed_key](https://huyhoang-doit.github.io/Detect_pressed_key/)<br>
+:point_right:[014_Search_tags](https://huyhoang-doit.github.io/Search_tags/)<br>
+:point_right:[015_Validate_form](https://huyhoang-doit.github.io/Validation_form_simple/)<br>
