@@ -110,3 +110,9 @@ These are the products I made during the process of learning and practicing fron
 <img src="./ScreenShot/016-2.png" style="border-radius:2%" width="49%" height="49%" />&nbsp;
 <br>
 <br>
+
+:point_right:[017_Slide_show](https://huyhoang-doit.github.io/Slide_show_simple/)<br>
+<img src="./ScreenShot/017-1.png" style="border-radius:2%" width="49%" height="49%" />&nbsp;
+<img src="./ScreenShot/017-2.png" style="border-radius:2%" width="49%" height="49%" />&nbsp;
+<br>
+<br>
